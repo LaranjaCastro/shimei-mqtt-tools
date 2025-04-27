@@ -1,0 +1,17 @@
+{
+  "service": {
+    "orm": {
+      "connectionString": "shimei:hYhdcNp4eMHd5SrY@tcp(47.104.144.220:3306)/shimei",
+      "driver": "mysql",
+      "tableNamePrefix": ""
+    },
+    "mqtt": {
+      "broker": "tcp://47.104.144.220:1883"
+    },
+    "redis": {
+      "connectionString": "47.104.144.220:6379",
+      "database": 0,
+      "password": "123456"
+    }
+  }
+}
